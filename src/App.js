@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <div
-      class={`h-screen w-full flex items-center justify-center bg-blue-600 flex-col ${
-        darkMode && "dark"
+      class={`h-screen w-full flex items-center justify-center bg-blue-50 flex-col ${
+        darkMode && "bg-blue-900"
       }`}
     >
       <label class="switch">
